@@ -1,0 +1,87 @@
+body{
+    background-color:  #c1c8b4;
+    font-style: oblique;
+    color: #31322e;
+}
+
+h1{
+    text-align: center;
+}
+main{
+    padding-top: 50px;
+    margin-top: 10px;
+}
+main>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#maria{
+    width: 75%;
+    margin-top: 30px;
+    margin-left: 50px;
+   
+    box-shadow: -38px -38px 0px -4px rgb(132, 139, 120);
+}
+.pGeral{
+    margin: 10 auto;
+    width: 80%;
+    text-align: justify;
+}
+#regulamentos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#unhas{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#unhas>img{
+    width: 30%;
+    margin: 10px auto;
+}
+#algunsTrabalhos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#feed{
+    display: flex;
+    justify-content: space-around;
+}
+#feed>img{
+    width: 48%;
+    
+    
+    
+}
+
+ul>li>img{
+    width:100px;
+    
+}
+#contato>li{
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+ul>li{
+    margin: 15px;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #31322e;
+    font-size: 20px;
+}
